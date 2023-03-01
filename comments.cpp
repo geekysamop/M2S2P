@@ -1,3 +1,11 @@
+#include <iostream>
+#include <stdlib.h>
+#include <pthread.h>
+#include <thread>
+#include <time.h>
+#include<unistd.h>
+#include<string>
+using namespace std;
 // Define the number of threads that will be created
 #define NUM_THREADS 8
 
